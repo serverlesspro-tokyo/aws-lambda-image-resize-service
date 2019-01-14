@@ -36,4 +36,5 @@ def handler(event, context):
         print(resize_key + " has been uploaded!")
 
     except Exception as e:
+        print("Error occurred image resizing process!")
         print(e)
